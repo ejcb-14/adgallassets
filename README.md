@@ -12,14 +12,14 @@ This repository exists so that the same approved artwork is used everywhere ADG 
 
 **This repository is public** so that the images can be linked directly from websites, email signatures, and third-party platforms. Public visibility is intentional — it is not an invitation to reuse the artwork.
 
-- The **ADG Seguros and EPS brand marks** (`ADGLogo.png`, `ADGLogo-Crop.png`, `EPSlogo.png`) are the property of ADG Seguros and are provided for **authorized use by ADG Seguros, its advisors, and approved partners**. Do not alter their colors, proportions, or composition — request a new variant instead of editing one yourself.
+- The **ADG Seguros and EPS brand marks** (`ADGLogo.png`, `ADGLogo-Crop.png`, `EPSlogo.png`, `eps-logo-crop.png`) are the property of ADG Seguros and are provided for **authorized use by ADG Seguros, its advisors, and approved partners**. Do not alter their colors, proportions, or composition — request a new variant instead of editing one yourself.
 - The ADG Seguros and Expat Protection System names and logos are **trademarks and are not licensed for redistribution, resale, or third-party use**.
 - `SSRP.png` is a regulatory graphic that **incorporates** the mark of the **Superintendencia de Seguros y Reaseguros de Panamá**, a government regulator. The SSRP mark itself is **not** ADG property; it is reproduced here, alongside ADG's supervised-status statement, for compliance display only.
 - The **social media and contact icons** (Facebook, Instagram, LinkedIn, WhatsApp, etc.) are generic third-party platform icons, not ADG-owned marks. They're hosted here purely for consistency across ADG materials — swap in your own copies of the same icons if preferred, no permission needed from ADG for those specifically.
 
 > **Español:** Este repositorio es público para permitir el enlace directo de las imágenes desde sitios web, firmas de correo y plataformas de terceros. Su visibilidad pública es intencional y no constituye una autorización de uso.
 >
-> Las marcas de ADG Seguros y EPS (`ADGLogo.png`, `ADGLogo-Crop.png`, `EPSlogo.png`) son propiedad de ADG Seguros y se proporcionan para uso autorizado de ADG Seguros, sus asesores y socios aprobados. Los nombres y logotipos de ADG Seguros y Expat Protection System son marcas registradas y no se licencian para redistribución, reventa ni uso por terceros. `SSRP.png` es un gráfico regulatorio que incorpora la marca de la Superintendencia de Seguros y Reaseguros de Panamá; dicha marca no es propiedad de ADG. Los íconos de redes sociales y contacto son íconos genéricos de plataformas de terceros, no marcas de ADG; se alojan aquí solo por consistencia.
+> Las marcas de ADG Seguros y EPS (`ADGLogo.png`, `ADGLogo-Crop.png`, `EPSlogo.png`, `eps-logo-crop.png`) son propiedad de ADG Seguros y se proporcionan para uso autorizado de ADG Seguros, sus asesores y socios aprobados. Los nombres y logotipos de ADG Seguros y Expat Protection System son marcas registradas y no se licencian para redistribución, reventa ni uso por terceros. `SSRP.png` es un gráfico regulatorio que incorpora la marca de la Superintendencia de Seguros y Reaseguros de Panamá; dicha marca no es propiedad de ADG. Los íconos de redes sociales y contacto son íconos genéricos de plataformas de terceros, no marcas de ADG; se alojan aquí solo por consistencia.
 
 ---
 
@@ -32,6 +32,7 @@ This repository exists so that the same approved artwork is used everywhere ADG 
 | `ADGLogo.png` | Primary ADG Seguros logo. Default choice for most placements. |
 | `ADGLogo-Crop.png` | Tightly cropped ADG logo with minimal surrounding whitespace. Use where vertical space is constrained, such as email signatures. |
 | `EPSlogo.png` | Expat Protection System logo. Use for EPS-branded materials aimed at English-speaking expat clients. |
+| `eps-logo-crop.png` | Tightly cropped EPS logo (shield + wordmark, minimal whitespace). Use where space is constrained, such as the EPS email-signature banner. |
 
 ### Regulatory
 
