@@ -39,8 +39,8 @@ This repository exists so that the same approved artwork is used everywhere ADG 
 | `adg-logo-flare-email.gif` | Email-optimized version of the lens-flare logo (224×128, ~200 KB, transparent, matted for white backgrounds). Display at 112 px wide. First frame is the static logo. |
 | `adg-logo-lens-flare.gif` | Animated ADG logo: a blue-white lens flare travels from the A to the D, with a vertical light ray spanning the full height of the logo (844×486; 1.2 s static hold). Modelled on EJ's own flare GIF. Master file — too heavy for email. |
 | `adg-logo-lens-flare-email.gif` | Email-optimized version of the travelling lens flare (224×129, ~240 KB, transparent, matted for white). Display at 112 px wide. First frame is the static logo. |
-| `adg-logo-shine.gif` | Minimal animated ADG logo: one soft diagonal light sweep over the letters (836×478; 4 s static hold, ~1.1 s eased sweep). Refined from EJ's shine GIF. Master file. |
-| `adg-logo-shine-email.gif` | Email-optimized version of the minimal light sweep (224×128, ~150 KB, transparent). Display at 112 px wide. First frame is the static logo. |
+| `adg-logo-shine.gif` | Minimal animated ADG logo: one soft diagonal light sweep over the letters (394×215, built from `ADGLogo-Crop.png` with full-quality edges; 2 s static hold, ~1.1 s eased sweep). Master file. |
+| `adg-logo-shine-email.gif` | Email version of the light sweep at 3× (336×183, ~265 KB, delta frames). Display at 112 px wide. Same crop and sharpness as `ADGLogo-Crop.png`; first frame is the static logo. |
 
 ### Regulatory
 
