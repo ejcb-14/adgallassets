@@ -12,14 +12,14 @@ This repository exists so that the same approved artwork is used everywhere ADG 
 
 **This repository is public** so that the images can be linked directly from websites, email signatures, and third-party platforms. Public visibility is intentional — it is not an invitation to reuse the artwork.
 
-- The **ADG Seguros and EPS brand marks** (`ADGLogo.png`, `ADGLogo-Crop.png`, `adg-logo-gold-shine*.gif`, `adg-logo-flare*.gif`, `adg-logo-lens-flare*.gif`, `adg-logo-shine*.gif`, `EPSlogo.png`, `eps-logo-crop.png`) are the property of ADG Seguros and are provided for **authorized use by ADG Seguros, its advisors, and approved partners**. Do not alter their colors, proportions, or composition — request a new variant instead of editing one yourself.
+- The **ADG Seguros and EPS brand marks** (`ADGLogo.png`, `ADGLogo-Crop.png`, `adg-logo-gold-shine*.gif`, `adg-logo-flare*.gif`, `adg-logo-lens-flare*.gif`, `adg-logo-shine*.gif` (incl. `-plate`), `EPSlogo.png`, `eps-logo-crop.png`) are the property of ADG Seguros and are provided for **authorized use by ADG Seguros, its advisors, and approved partners**. Do not alter their colors, proportions, or composition — request a new variant instead of editing one yourself.
 - The ADG Seguros and Expat Protection System names and logos are **trademarks and are not licensed for redistribution, resale, or third-party use**.
 - `SSRP.png` is a regulatory graphic that **incorporates** the mark of the **Superintendencia de Seguros y Reaseguros de Panamá**, a government regulator. The SSRP mark itself is **not** ADG property; it is reproduced here, alongside ADG's supervised-status statement, for compliance display only.
 - The **social media and contact icons** (Facebook, Instagram, LinkedIn, WhatsApp, etc.) are generic third-party platform icons, not ADG-owned marks. They're hosted here purely for consistency across ADG materials — swap in your own copies of the same icons if preferred, no permission needed from ADG for those specifically.
 
 > **Español:** Este repositorio es público para permitir el enlace directo de las imágenes desde sitios web, firmas de correo y plataformas de terceros. Su visibilidad pública es intencional y no constituye una autorización de uso.
 >
-> Las marcas de ADG Seguros y EPS (`ADGLogo.png`, `ADGLogo-Crop.png`, `adg-logo-gold-shine*.gif`, `adg-logo-flare*.gif`, `adg-logo-lens-flare*.gif`, `adg-logo-shine*.gif`, `EPSlogo.png`, `eps-logo-crop.png`) son propiedad de ADG Seguros y se proporcionan para uso autorizado de ADG Seguros, sus asesores y socios aprobados. Los nombres y logotipos de ADG Seguros y Expat Protection System son marcas registradas y no se licencian para redistribución, reventa ni uso por terceros. `SSRP.png` es un gráfico regulatorio que incorpora la marca de la Superintendencia de Seguros y Reaseguros de Panamá; dicha marca no es propiedad de ADG. Los íconos de redes sociales y contacto son íconos genéricos de plataformas de terceros, no marcas de ADG; se alojan aquí solo por consistencia.
+> Las marcas de ADG Seguros y EPS (`ADGLogo.png`, `ADGLogo-Crop.png`, `adg-logo-gold-shine*.gif`, `adg-logo-flare*.gif`, `adg-logo-lens-flare*.gif`, `adg-logo-shine*.gif` (incl. `-plate`), `EPSlogo.png`, `eps-logo-crop.png`) son propiedad de ADG Seguros y se proporcionan para uso autorizado de ADG Seguros, sus asesores y socios aprobados. Los nombres y logotipos de ADG Seguros y Expat Protection System son marcas registradas y no se licencian para redistribución, reventa ni uso por terceros. `SSRP.png` es un gráfico regulatorio que incorpora la marca de la Superintendencia de Seguros y Reaseguros de Panamá; dicha marca no es propiedad de ADG. Los íconos de redes sociales y contacto son íconos genéricos de plataformas de terceros, no marcas de ADG; se alojan aquí solo por consistencia.
 
 ---
 
@@ -41,6 +41,8 @@ This repository exists so that the same approved artwork is used everywhere ADG 
 | `adg-logo-lens-flare-email.gif` | Email-optimized version of the travelling lens flare (224×129, ~240 KB, transparent, matted for white). Display at 112 px wide. First frame is the static logo. |
 | `adg-logo-shine.gif` | Minimal animated ADG logo: one soft diagonal light sweep over the letters (394×215, built from `ADGLogo-Crop.png` with full-quality edges; 2 s static hold, ~1.1 s eased sweep). Master file. |
 | `adg-logo-shine-email.gif` | Email version of the light sweep at 3× (336×183, ~265 KB, delta frames). Display at 112 px wide. Same crop and sharpness as `ADGLogo-Crop.png`; first frame is the static logo. |
+| `adg-logo-shine-plate.gif` | Light-sweep logo on a white rounded plate with breathing room (434×253). The plate avoids the light halo that 1-bit GIF transparency leaves on dark backgrounds and follows the brand rule of a solid white plate behind the colour logo off white. Master file. |
+| `adg-logo-shine-plate-email.gif` | Email version of the plate variant at 3× (360×210, ~265 KB). Display at 120 px wide. |
 
 ### Regulatory
 
