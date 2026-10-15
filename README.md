@@ -33,6 +33,7 @@ This repository exists so that the same approved artwork is used everywhere ADG 
 | `ADGLogo-Crop.png` | Tightly cropped ADG logo with minimal surrounding whitespace. Use where vertical space is constrained, such as email signatures. |
 | `EPSlogo.png` | Expat Protection System logo. Use for EPS-branded materials aimed at English-speaking expat clients. |
 | `eps-logo-crop.png` | Tightly cropped EPS logo (shield + wordmark, minimal whitespace). Use where space is constrained, such as the EPS email-signature banner. |
+| `eps-favicon.png` | EPS shield only, 128×128 transparent PNG. Browser-tab icon for EPS pages (tour cancel page). Cut from `eps-logo-crop.png`. |
 | `adg-logo-gold-shine.gif` | Animated ADG logo with a gold shine sweep (836×478, 2.5 s loop). Master file — too heavy for email. |
 | `adg-logo-gold-shine-email.gif` | Email-optimized version of the animated logo (224×128, ~150 KB, transparent). Display at 112 px wide. First frame is the static logo, so clients that don't animate GIFs (older Outlook desktop) show the normal logo. |
 | `adg-logo-flare.gif` | Animated ADG logo with a brief lens-flare glint on the A (836×478; static hold 3.2 s, then a ~1 s flash). Master file — too heavy for email. |
