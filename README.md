@@ -50,6 +50,7 @@ This repository exists so that the same approved artwork is used everywhere ADG 
 | --- | --- |
 | `SSRP.png` | Regulatory graphic incorporating the mark of the Superintendencia de Seguros y Reaseguros de Panamá (SSRP), Panama's insurance regulator. _(Confirm exact contents/composition — description assumed, not verified against the file.)_ |
 | `ADGSSRPdisclaimer.png` | Combined regulatory disclaimer graphic stating ADG Seguros' supervised status under SSRP License PJ 918. Required on client-facing landing pages and marketing materials. |
+| `ADG-regulado-PJ918.png` | Preferred regulatory seal (from Oct 2026): teal rounded band with the ADG logo, "Regulado y supervisado por la Superintendencia de Seguros y Reaseguros de Panamá · PJ918" and the SSRP mark (697×123, transparent corners). Used in client emails (WorldWide renewals, EPS tour emails) and the EPS site footers. Cropped from `Imagen Corporativa/Regulado y supervisado por la superintendencia de seguros y reaseguros de panama - PJ918.png`. |
 
 ### Contact icons
 
