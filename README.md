@@ -12,14 +12,14 @@ This repository exists so that the same approved artwork is used everywhere ADG 
 
 **This repository is public** so that the images can be linked directly from websites, email signatures, and third-party platforms. Public visibility is intentional — it is not an invitation to reuse the artwork.
 
-- The **ADG Seguros and EPS brand marks** (`ADGLogo.png`, `ADGLogo-Crop.png`, `adg-logo-gold-shine*.gif`, `adg-logo-flare*.gif`, `adg-logo-lens-flare*.gif`, `adg-logo-shine*.gif` (incl. `-plate`), `EPSlogo.png`, `eps-logo-crop.png`) are the property of ADG Seguros and are provided for **authorized use by ADG Seguros, its advisors, and approved partners**. Do not alter their colors, proportions, or composition — request a new variant instead of editing one yourself.
+- The **ADG Seguros and EPS brand marks** (`ADGLogo.png`, `ADGLogo-Crop.png`, `adg-logo-gold-shine*.gif`, `adg-logo-flare*.gif`, `adg-logo-lens-flare*.gif`, `adg-logo-shine*.gif` (incl. `-plate`), `EPSlogo.png`, `eps-logo-crop.png`, and every logo under `brand/adg/` and `brand/eps/`) are the property of ADG Seguros and are provided for **authorized use by ADG Seguros, its advisors, and approved partners**. Do not alter their colors, proportions, or composition — request a new variant instead of editing one yourself.
 - The ADG Seguros and Expat Protection System names and logos are **trademarks and are not licensed for redistribution, resale, or third-party use**.
 - `SSRP.png` is a regulatory graphic that **incorporates** the mark of the **Superintendencia de Seguros y Reaseguros de Panamá**, a government regulator. The SSRP mark itself is **not** ADG property; it is reproduced here, alongside ADG's supervised-status statement, for compliance display only.
 - The **social media and contact icons** (Facebook, Instagram, LinkedIn, WhatsApp, etc.) are generic third-party platform icons, not ADG-owned marks. They're hosted here purely for consistency across ADG materials — swap in your own copies of the same icons if preferred, no permission needed from ADG for those specifically.
 
 > **Español:** Este repositorio es público para permitir el enlace directo de las imágenes desde sitios web, firmas de correo y plataformas de terceros. Su visibilidad pública es intencional y no constituye una autorización de uso.
 >
-> Las marcas de ADG Seguros y EPS (`ADGLogo.png`, `ADGLogo-Crop.png`, `adg-logo-gold-shine*.gif`, `adg-logo-flare*.gif`, `adg-logo-lens-flare*.gif`, `adg-logo-shine*.gif` (incl. `-plate`), `EPSlogo.png`, `eps-logo-crop.png`) son propiedad de ADG Seguros y se proporcionan para uso autorizado de ADG Seguros, sus asesores y socios aprobados. Los nombres y logotipos de ADG Seguros y Expat Protection System son marcas registradas y no se licencian para redistribución, reventa ni uso por terceros. `SSRP.png` es un gráfico regulatorio que incorpora la marca de la Superintendencia de Seguros y Reaseguros de Panamá; dicha marca no es propiedad de ADG. Los íconos de redes sociales y contacto son íconos genéricos de plataformas de terceros, no marcas de ADG; se alojan aquí solo por consistencia.
+> Las marcas de ADG Seguros y EPS (`ADGLogo.png`, `ADGLogo-Crop.png`, `adg-logo-gold-shine*.gif`, `adg-logo-flare*.gif`, `adg-logo-lens-flare*.gif`, `adg-logo-shine*.gif` (incl. `-plate`), `EPSlogo.png`, `eps-logo-crop.png` y todos los logos en `brand/adg/` y `brand/eps/`) son propiedad de ADG Seguros y se proporcionan para uso autorizado de ADG Seguros, sus asesores y socios aprobados. Los nombres y logotipos de ADG Seguros y Expat Protection System son marcas registradas y no se licencian para redistribución, reventa ni uso por terceros. `SSRP.png` es un gráfico regulatorio que incorpora la marca de la Superintendencia de Seguros y Reaseguros de Panamá; dicha marca no es propiedad de ADG. Los íconos de redes sociales y contacto son íconos genéricos de plataformas de terceros, no marcas de ADG; se alojan aquí solo por consistencia.
 
 ---
 
@@ -44,6 +44,35 @@ This repository exists so that the same approved artwork is used everywhere ADG 
 | `adg-logo-shine-email.gif` | Email version of the light sweep at 3× (336×183, ~265 KB, delta frames). Display at 112 px wide. Same crop and sharpness as `ADGLogo-Crop.png`; first frame is the static logo. |
 | `adg-logo-shine-plate.gif` | Light-sweep logo on a white rounded plate with breathing room (434×253). The plate avoids the light halo that 1-bit GIF transparency leaves on dark backgrounds and follows the brand rule of a solid white plate behind the colour logo off white. Master file. |
 | `adg-logo-shine-plate-email.gif` | Email version of the plate variant at 3× (360×210, ~265 KB). Display at 120 px wide. |
+
+### Brand system (`brand/`)
+
+Logo variants and design tokens from the ADG brand system (v1.0, Sep 2026). The SVGs are faithful vectorizations of the original PNG logos (the designer's `.ai` source files have not been found); the PNGs are exported at 3× the original resolution. Prefer the SVG wherever the platform accepts it.
+
+**Which logo goes on which background**
+
+| Background | ADG | EPS |
+| --- | --- | --- |
+| White or paper `#F6F9F9` | `brand/adg/adg-logo-color.svg` | `EPSlogo.png` / `eps-logo-crop.png` |
+| Mint `#B2D9D6` (the colour logo loses its G here) | `brand/adg/adg-logo-tinta.svg` | `brand/eps/eps-logo-tinta.svg` |
+| Navy, blue or any dark background | `brand/adg/adg-logo-blanco.svg` (`.png`) | `brand/eps/eps-logo-blanco.svg` (`.png`) |
+| One colour: fax, stamps | `brand/adg/adg-logo-mono.svg` | `brand/eps/eps-logo-mono.svg` |
+| Joint ADG + EPS pieces | `brand/adg/adg-logo-marino.svg` (`.png`) | `brand/eps/eps-logo-marino.svg` (`.png`) |
+| Single-colour blue | `brand/adg/adg-logo-azul.svg` (`.png`) | `brand/eps/eps-logo-azul.svg` (`.png`) |
+| Black (print) | `brand/adg/adg-logo-negro.png` | `brand/eps/eps-logo-negro.png` |
+
+`brand/variantes-logotipo.png` is a contact sheet showing every variant on its background.
+
+**Tokens**
+
+| File | Contents |
+| --- | --- |
+| `brand/tokens/tokens.css` | CSS custom properties: palette, readable text derivatives, neutrals, case-status colours, EPS navy, type stacks, 4-px spacing scale, logo minimums, chart palettes (categorical, sequential, diverging) with dark-mode values. |
+| `brand/tokens/tokens.json` | The same values as JSON for code and tools. |
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ejcb-14/adgallassets@main/brand/tokens/tokens.css">
+```
 
 ### Regulatory
 
@@ -128,14 +157,25 @@ Always set a meaningful `alt` attribute — many email clients block images by d
 
 ## Brand reference
 
-<!-- Fill these in with the official values from the ADG brand guidelines. -->
+Full values live in `brand/tokens/tokens.css`. Brand colours were sampled from the logo itself.
 
 | | Value |
 | --- | --- |
-| Primary color | _to be documented_ |
-| Secondary color | _to be documented_ |
-| Primary typeface | _to be documented_ |
-| Minimum logo width | _to be documented_ |
+| Primary color | Turquesa `#00B0BB` (the D) |
+| Secondary colors | Azul `#1E90AC` (the A), Azul profundo `#00819F`, Menta `#B2D9D6` (the G), Gris `#9E9A9C` (SEGUROS) |
+| Text on white | Azul texto `#006B85`, Gris texto `#6E6A6C`, Tinta `#0F2A32` |
+| EPS | Marino `#183348` (fixed) |
+| Typefaces | Bodoni Moda (headings), Source Sans 3 (body), IBM Plex Mono (premiums, policy numbers), all from Google Fonts. Default choice, not yet confirmed |
+| Minimum logo width | 90 px on screen, 25 mm in print; clear space = height of the D on all four sides |
+
+**Rules**
+
+1. Turquesa is never a text colour on white. Mint is never a text colour at any size.
+2. The colour logo goes only on white or paper. Dark backgrounds take the white logo.
+3. Never on photos, gradients or split backgrounds: put a solid white plate behind it.
+4. The SSRP bar (License PJ 918) carries a third-party mark: never recolour, crop or redraw it.
+5. EPS keeps its navy and its shield. It shares only neutrals, spacing and type with ADG.
+6. Client deliverables (comparisons, reports, letters) are always light, whatever the system theme.
 
 ---
 

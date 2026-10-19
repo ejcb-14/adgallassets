@@ -1,0 +1,167 @@
+/* =========================================================
+   ADG Seguros, S.A. — tokens de marca
+   v1.0 · 9 sep 2026
+
+   Fuente de verdad: ADGLogo-Crop.png y EPSlogo.png,
+   muestreados por agrupamiento de color (k-means).
+   Los colores de marca no son invencion: salen del logotipo.
+   Los derivados de texto y de graficas si son calculados,
+   y cada uno trae su razon de contraste medida.
+
+   Autoridad: manda la paleta del LOGOTIPO.
+   adgseguros.com.pa usa hoy Material Teal (#00796B / #009688)
+   con Oswald y Roboto: esta desalineado y debe migrar.
+   ========================================================= */
+
+:root {
+  /* ---- ADG: marca ---- */
+  --adg-turquesa:        #00B0BB;  /* la D. Primario. 44.7% del logotipo */
+  --adg-azul:            #1E90AC;  /* la A. Segundo nivel, hover */
+  --adg-azul-profundo:   #00819F;  /* cruce A+D. Unico azul apto para texto */
+  --adg-menta:           #B2D9D6;  /* la G. Solo fondos y resaltados */
+  --adg-gris:            #9E9A9C;  /* la palabra SEGUROS. Solo texto grande */
+
+  /* ---- ADG: derivados legibles ----
+     El turquesa (2.65:1) y el gris (2.78:1) NO alcanzan 4.5:1
+     sobre blanco. Estos existen solo para texto corrido. */
+  --adg-azul-texto:      #006B85;  /* 6.10:1 sobre blanco */
+  --adg-gris-texto:      #6E6A6C;  /* 5.33:1 sobre blanco */
+
+  /* ---- Neutros (sesgados hacia el turquesa) ---- */
+  --adg-tinta:           #0F2A32;  /* 15.03:1 */
+  --adg-tinta-suave:     #42606A;
+  --adg-papel:           #F6F9F9;
+  --adg-filete:          #DBE6E6;
+  --adg-blanco:          #FFFFFF;
+
+  /* ---- Estado de caso ---- */
+  --adg-emitida:         #2F7D5F;
+  --adg-tramite:         #9A6A12;
+  --adg-pendiente:       #A33A34;
+
+  /* ---- EPS: submarca endosada ----
+     Expat Protection System. Marino fijo, no se ajusta.
+     Sobre el marino, el turquesa (5.10:1) y la menta (8.87:1)
+     de ADG SI cumplen: son el puente entre las dos marcas. */
+  --eps-marino:          #183348;  /* 13.50:1 sobre blanco */
+  --eps-marino-claro:    #2A4C66;
+  --eps-acento:          #00B0BB;
+  --eps-suave:           #B2D9D6;
+
+  /* ---- Tipografia ---- */
+  --adg-display: "Bodoni Moda", Didot, "Times New Roman", serif;
+  --adg-texto:   "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --adg-dato:    "IBM Plex Mono", ui-monospace, "Consolas", monospace;
+
+  /* ---- Espaciado: escala de 4 ---- */
+  --adg-s1: 4px;  --adg-s2: 8px;  --adg-s3: 12px; --adg-s4: 16px;
+  --adg-s5: 24px; --adg-s6: 32px; --adg-s7: 48px; --adg-s8: 64px;
+
+  /* ---- Logotipo ---- */
+  --adg-logo-min-px:    90px;
+  --adg-logo-min-mm:    25mm;
+  --adg-logo-resguardo: 1em;   /* = altura de la D, los cuatro lados */
+
+  /* =======================================================
+     GRAFICAS
+     Validadas con el script de la guia de visualizacion,
+     modo claro sobre #FCFCFB y oscuro sobre #101F24,
+     comprobando TODOS los pares, no solo los adyacentes.
+     ======================================================= */
+
+  /* Categoricas — orden FIJO, nunca se cicla.
+     4 slots. Con 5 o mas series: facetar en multiples
+     pequenos, no inventar un quinto color. */
+  --adg-serie-1: #00819F;  /* ADG / aseguradora principal */
+  --adg-serie-2: #C4842C;
+  --adg-serie-3: #8B4A72;
+  --adg-serie-4: #5A7018;
+
+  /* Secuencial (magnitud) — un solo tono, claro a oscuro */
+  --adg-sec-1: #E4F2F3;
+  --adg-sec-2: #B2D9D6;
+  --adg-sec-3: #5FBCC6;
+  --adg-sec-4: #0298B0;
+  --adg-sec-5: #00819F;
+  --adg-sec-6: #005A70;
+
+  /* Divergente (polaridad) — ocre <- gris neutro -> turquesa */
+  --adg-div-neg-3: #8A5A12;
+  --adg-div-neg-2: #C4842C;
+  --adg-div-neg-1: #DDBE8E;
+  --adg-div-mid:   #E9E7E3;
+  --adg-div-pos-1: #A5CFD6;
+  --adg-div-pos-2: #0298B0;
+  --adg-div-pos-3: #00647C;
+
+  /* Superficies de grafica */
+  --adg-chart-surface: #FCFCFB;
+  --adg-chart-grid:    #E7EDED;
+  --adg-chart-axis:    #6E6A6C;
+}
+
+/* Modo oscuro: los pasos se eligen contra el fondo oscuro,
+   no se invierten los claros. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --adg-tinta:       #E6EFEF;
+    --adg-tinta-suave: #9DB3B8;
+    --adg-papel:       #0B1719;
+    --adg-filete:      #22383C;
+    --adg-azul-texto:  #5FC6DC;
+    --adg-gris-texto:  #A9A5A6;
+
+    --adg-serie-1: #008BB3;
+    --adg-serie-2: #C38300;
+    --adg-serie-3: #AC4E87;
+    --adg-serie-4: #597900;
+
+    --adg-chart-surface: #101F24;
+    --adg-chart-grid:    #22383C;
+    --adg-chart-axis:    #9DB3B8;
+  }
+}
+:root[data-theme="dark"] {
+  --adg-tinta:       #E6EFEF;
+  --adg-tinta-suave: #9DB3B8;
+  --adg-papel:       #0B1719;
+  --adg-filete:      #22383C;
+  --adg-azul-texto:  #5FC6DC;
+  --adg-gris-texto:  #A9A5A6;
+
+  --adg-serie-1: #008BB3;
+  --adg-serie-2: #C38300;
+  --adg-serie-3: #AC4E87;
+  --adg-serie-4: #597900;
+
+  --adg-chart-surface: #101F24;
+  --adg-chart-grid:    #22383C;
+  --adg-chart-axis:    #9DB3B8;
+}
+
+/* =========================================================
+   Reglas duras
+   ---------------------------------------------------------
+    1. --adg-turquesa NO se usa para texto sobre blanco (2.65:1).
+       Para texto: --adg-azul-profundo o --adg-azul-texto.
+    2. --adg-menta NO se usa para texto en ningun tamano, ni como
+       fondo detras del logotipo a color.
+    3. El logotipo a color solo va sobre blanco o papel. Sobre menta
+       la G desaparece: ahi va adg-logo-tinta.svg (9.87:1). En fondos
+       oscuros, adg-logo-blanco.svg.
+    4. Nunca sobre fotos, degradados ni fondos partidos.
+    5. La barra de la SSRP (Licencia PJ 918) lleva marca de un
+       tercero: no se recolorea, no se recorta, no se redibuja.
+    6. EPS conserva su marino y su escudo. Comparte con ADG los
+       neutros, el espaciado y el gesto tipografico. Nada mas.
+    7. Graficas: el color de serie sigue a la ENTIDAD, nunca al
+       ranking. Si un filtro cambia cuantas series hay, las que
+       quedan conservan su color.
+    8. Nunca dos ejes Y en una misma grafica.
+    9. Con 2 o mas series siempre hay leyenda; con 4 o menos,
+       ademas etiqueta directa sobre la marca. La separacion de
+       la serie 3 frente a la 1 queda en el limite para daltonismo
+       (deutan), asi que la etiqueta directa no es opcional.
+   10. Los numeros y etiquetas van en color de texto, nunca en
+       el color de la serie.
+   ========================================================= */
